@@ -74,8 +74,44 @@ In order to set up a database like the one we use with Climba here you can find 
 |bestRouteGrade|String|
 
 #### "Activity" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|fromUser|Pointer<_User>|
+|toUser|Pointer<_User>|
+|type|String|
+|content|String|
+|repetition|POinter<Repetition>|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+
 #### "Region" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|nome|String|
+|falesie|Number|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+
 #### "Repetition" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|user|Pointer<_User>|
+|via|Pointer<via>|
+|type|String|
+|stars|Number|
+|comment|String|
+|gradoProposto|String|
+|settore|String|
+|falesia|String|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+
 #### "UserPhoto" table
 #### "falesia" table
 #### "settore" table

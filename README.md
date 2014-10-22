@@ -24,6 +24,18 @@ Climba is an iOS app made by rock climbers for rock climbers. It is
 ## What can you do with Climba
 
 ## Technology
+Climba is based essentially on the [Parse](https://www.parse.com) Backend as a service. Here you can find a list of all the third party technologies or libraries used by Climba:
+
+ - [Mantle](https://github.com/Mantle/Mantle)
+ - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
+ - [AsyncImageView](https://github.com/nicklockwood/AsyncImageView)
+ - [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+ - [TSMessages](https://github.com/toursprung/TSMessages)
+ - [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
+ - [Reachability](https://github.com/tonymillion/Reachability)
+ - [Facebook-iOS-SDK](https://developers.facebook.com)
+ - [Parse](https://www.parse.com)
+ - [MarqueeLabel](https://github.com/cbpowell/MarqueeLabel)
 
 ## Contributors
 <a href="https://twitter.com/robertobelardo" target="_blank"><img src="https://avatars3.githubusercontent.com/u/43101?v=2&s=96" alt="Roberto Belardo"></a>  

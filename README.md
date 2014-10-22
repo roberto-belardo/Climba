@@ -123,6 +123,27 @@ In order to set up a database like the one we use with Climba here you can find 
 |ACL|ACL|
 
 #### "falesia" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+
+|lat|String|
+|long|String|
+|nome|String|
+|descrizione|String|
+|accesso|String|
+|regione|String|
+|provincia|String|
+|provinciaShort|String|
+|id|Number|
+|numSettori|Number|
+|oldID|Number|
+|numVie|Number|
+|available|Boolean|
+
 #### "settore" table
 #### "via" table
 

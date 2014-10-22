@@ -55,7 +55,30 @@ If you want to [Fork](https://github.com/backslash451/climba/fork) Climba to exp
 
 In order to set up a database like the one we use with Climba here you can find the tables and the field we use:
 
+#### "Users" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|username|String|
+|password|String|
+|authData|authData|
+|following|Relation<_User>|
+|emailVerified|Boolean|
+|email|String|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+|profile|Object|
+|facebookId|String|
+|bestRouteGrade|String|
 
+#### "Activity" table
+#### "Region" table
+#### "Repetition" table
+#### "UserPhoto" table
+#### "falesia" table
+#### "settore" table
+#### "via" table
 
 #### How to suggest a revision
 *Working in progress*

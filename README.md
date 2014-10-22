@@ -10,6 +10,7 @@ Climba is here to change all that. Our aim is to build a free community driven d
 ## Table of contents
 - [Version History](#version-history)
 - [What is Climba](#what-is-climba)
+- [Why Climba](#why-climba)
 - [What can you do with Climba](#what-can-you-do-with-climba)
 - [Technology](#technology)
 - [The Climba Database](#the-climba-database)
@@ -29,6 +30,13 @@ Climba is an iOS app made by rock climbers for rock climbers. It is based on the
  - add your repetitions with comment, personal grade, beauty
  - Facebook login and Facebook sharing
  - personal profile page
+
+## Why Climba
+Climba comes from the need of today's climbers of a way to discover new climbing spots and to share their achievements. Until yesterday climbers have had to rely on paper books written by veteran climbers, printed pdfs downloaded by some proprietary old fashioned web site or the same old fashioned web sites resized to fit on smartphones... Recently some apps have been published on this matter but they use expensive business models.
+
+When i decided to write Climba i had nothing on this in mind, i just wanted to experiment with [Parse](http://www.parse.com) and iOS programming. But during the development of Climba i felt that i was building something more than a simple app. 
+
+Climba is more than this. Climba wants to be a community driven database of italian climbing spots where everyone can suggest or add new spots, new routes, correct wrong description and do whatever he wants with it. Do you want to build an Android app similar to Climba? You can, and you can use Climba's database.
 
 ## What can you do with Climba
  - [Download]() the app from the [App Store]() and use it!

@@ -22,7 +22,13 @@ Climba is here to change all that. Our aim is to build a free community driven d
 - [**1.0**](https://github.com/backslash451/climba)   (10/22/2014): Initial release
 
 ## What is Climba
-Climba is an iOS app made by rock climbers for rock climbers. It is
+Climba is an iOS app made by rock climbers for rock climbers. It is based on the [Parse](http://www.parse.com) cloud backend and it allows you to:
+ - search for italian climbing spots with map, description, access, weather infos, sectors and routes
+ - add climbing spots to favorites
+ - look for other people routes repetitions
+ - add your repetitions with comment, personal grade, beauty
+ - Facebook login and Facebook sharing
+ - personal profile page
 
 ## What can you do with Climba
  - [Download]() the app from the [App Store]() and use it!

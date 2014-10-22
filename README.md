@@ -113,6 +113,15 @@ In order to set up a database like the one we use with Climba here you can find 
 |ACL|ACL|
 
 #### "UserPhoto" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|imageFile|File|
+|user|Pointer<_User>|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+
 #### "falesia" table
 #### "settore" table
 #### "via" table

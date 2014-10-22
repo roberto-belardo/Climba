@@ -26,7 +26,7 @@ Climba is an iOS app made by rock climbers for rock climbers. It is
 ## Technology
 
 ## Contributors
-<a href="https://twitter.com/robertobelardo" target="_blank"><img src="https://pbs.twimg.com/profile_images/1972331010/Rob-Snow-Stencil-3_400x400.png" alt="Roberto Belardo"></a>  
+<a href="https://twitter.com/robertobelardo" target="_blank"><img src="https://avatars3.githubusercontent.com/u/43101?v=2&s=96" alt="Roberto Belardo"></a>  
 **Roberto Belardo** — Author 
 <a href="https://twitter.com/robertobelardo" target="_blank">@robertobelardo</a>
 

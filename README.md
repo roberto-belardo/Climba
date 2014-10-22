@@ -129,7 +129,6 @@ In order to set up a database like the one we use with Climba here you can find 
 |createdAt|Date|
 |updatedAt|Date|
 |ACL|ACL|
-
 |lat|String|
 |long|String|
 |nome|String|
@@ -145,7 +144,34 @@ In order to set up a database like the one we use with Climba here you can find 
 |available|Boolean|
 
 #### "settore" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+|id|Number|
+|nome|String|
+|oldID|Number|
+|falesia|Pointer<falesia>|
+|numVie|Number|
+
 #### "via" table
+| Field name | Field type |
+|:-----------|:------------|
+|objectId|String|
+|createdAt|Date|
+|updatedAt|Date|
+|ACL|ACL|
+|id|Number|
+|nome|String|
+|oldID|Number|
+|grado|String|
+|settore|Pointer<settore>|
+|frazioneGrado|String|
+|numeroValutazioni|Number|
+|votiBellezza|Number|
+|bellezza|String|
 
 #### How to suggest a revision
 *Working in progress*

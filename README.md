@@ -45,7 +45,18 @@ Climba is based essentially on the [Parse](https://www.parse.com) Backend as a s
  - [MarqueeLabel](https://github.com/cbpowell/MarqueeLabel)
 
 ### The Climba Database
-*Working in progress*
+The Climba database is hosted on the [Parse](https://www.parse.com) cloud backend with free plan which include as of now, among other contraints, a limit of 30 request/sec and 20GB of database storage.
+
+If you want to [Fork](https://github.com/backslash451/climba/fork) Climba to experiment you should:
+ - sign up to Parse and set up a database that is the same as the one we use with Climba;
+ - obtain your API keys;
+ - put your API keys in the source code you forked;
+ - start experimenting...
+
+In order to set up a database like the one we use with Climba here you can find the tables and the field we use:
+
+
+
 #### How to suggest a revision
 *Working in progress*
 

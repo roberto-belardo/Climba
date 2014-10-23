@@ -190,7 +190,7 @@ In order to set up a database like the one we use with Climba here you can find 
 #### How to suggest a revision
 The community driven database of Climba is hosted on Github here: [Climba-data](https://github.com/backslash451/Climba-data).
 
-Another way to suggest a revision for an existing climbing spot (falesia) or to add a new one is sending an email to [Climba email address](mailto://climba.app@gmail.com).
+Another way to suggest a revision for an existing climbing spot (falesia) or to add a new one is sending an email to [Climba email address](mailto:climba.app@gmail.com).
 
 ## Contributors
 <a href="https://twitter.com/robertobelardo" target="_blank"><img src="https://avatars3.githubusercontent.com/u/43101?v=2&s=96" alt="Roberto Belardo"></a>  

@@ -16,7 +16,7 @@ Climba is here to change all that. Our aim is to build a free community driven d
 - [The Climba Database](#the-climba-database)
  - [How to suggest a revision](#how-to-suggest-a-revision)
 - [Contributors](#contributors)
-- [Credits](#links)
+- [Links](#links)
 - [License](#license)
 
 ## Version History

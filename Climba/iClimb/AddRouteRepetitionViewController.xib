@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddRouteRepetitionViewController">
+            <connections>
+                <outlet property="beautyLabelImageView" destination="giZ-sR-VWf" id="ZoX-8P-pja"/>
+                <outlet property="cancelButton" destination="3FG-od-lh4" id="Hkw-sZ-RXF"/>
+                <outlet property="commentLabelImageView" destination="BoR-oW-6qm" id="IUM-d6-VCr"/>
+                <outlet property="commentTextView" destination="gFJ-9W-6KK" id="s1k-mZ-kRM"/>
+                <outlet property="frazioneGrado" destination="Ryj-Dt-sAd" id="hTh-kR-Uba"/>
+                <outlet property="gradeLabelImageView" destination="0zn-Ch-ZQb" id="Job-oh-9o5"/>
+                <outlet property="gradoVia" destination="JoI-Cb-hG7" id="vjS-3H-ch3"/>
+                <outlet property="modeLabelImageView" destination="c4L-hf-JB1" id="N47-oE-7Nl"/>
+                <outlet property="navBackground" destination="AoC-n5-MfU" id="1b3-5A-j8v"/>
+                <outlet property="repetitionMode" destination="HEw-Zc-ERd" id="Mbl-se-h4G"/>
+                <outlet property="routeGradeLabel" destination="JoI-Cb-hG7" id="wfd-R5-8ud"/>
+                <outlet property="routeProposedBeautyImageView" destination="bcy-8g-N6W" id="0VN-b3-qlD"/>
+                <outlet property="saveButton" destination="ykm-mB-Bxj" id="nm9-k3-1TW"/>
+                <outlet property="scrollView" destination="gj2-Qz-RKv" id="7yh-eS-xjh"/>
+                <outlet property="shareLabelImageView" destination="6bL-c8-3BN" id="0nd-5q-lIa"/>
+                <outlet property="stepperBeauty" destination="PfU-4V-wvP" id="cWr-dz-7bJ"/>
+                <outlet property="stepperGrado" destination="er1-gi-wuP" id="v1m-mx-EUL"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gj2-Qz-RKv">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AoC-n5-MfU">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="routeDetailGradeCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="IL2-P5-MPA">
+                            <rect key="frame" x="127" y="109" width="67" height="67"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="routeDetailDivider.png" translatesAutoresizingMaskIntoConstraints="NO" id="Noq-hH-S9p">
+                            <rect key="frame" x="0.0" y="142" width="320" height="1"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcy-8g-N6W">
+                            <rect key="frame" x="112" y="233" width="97" height="15"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4L-hf-JB1">
+                            <rect key="frame" x="0.0" y="192" width="320" height="17"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="giZ-sR-VWf">
+                            <rect key="frame" x="0.0" y="232" width="320" height="17"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0zn-Ch-ZQb">
+                            <rect key="frame" x="0.0" y="275" width="320" height="17"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykm-mB-Bxj">
+                            <rect key="frame" x="279" y="23" width="33" height="33"/>
+                            <state key="normal" image="saveRouteRepetition.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="saveRouteRepetitionClicked:" destination="-1" eventType="touchUpInside" id="cRy-Kt-eZi"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JoI-Cb-hG7">
+                            <rect key="frame" x="127" y="132" width="67" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <color key="textColor" red="0.076359470439999994" green="0.23779728010000001" blue="0.47379225130000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PfU-4V-wvP">
+                            <rect key="frame" x="218" y="226" width="94" height="29"/>
+                            <connections>
+                                <action selector="stepperBeautyValueChanged:" destination="-1" eventType="valueChanged" id="pDN-bi-oZz"/>
+                            </connections>
+                        </stepper>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6a+.5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ryj-Dt-sAd">
+                            <rect key="frame" x="112" y="273" width="78" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.062745101750000004" green="0.231372565" blue="0.40784317260000003" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="On Sight" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HEw-Zc-ERd">
+                            <rect key="frame" x="112" y="186" width="200" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="er1-gi-wuP">
+                            <rect key="frame" x="218" y="269" width="94" height="29"/>
+                            <connections>
+                                <action selector="stepperGradoValueChanged:" destination="-1" eventType="valueChanged" id="JQ5-nB-PQ7"/>
+                            </connections>
+                        </stepper>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FG-od-lh4">
+                            <rect key="frame" x="10" y="23" width="33" height="33"/>
+                            <state key="normal" image="discardRouteRepetition.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="dismissViewClicked:" destination="-1" eventType="touchUpInside" id="zkq-dQ-DFp"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BoR-oW-6qm">
+                            <rect key="frame" x="0.0" y="318" width="320" height="17"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6bL-c8-3BN">
+                            <rect key="frame" x="0.0" y="405" width="320" height="17"/>
+                        </imageView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gFJ-9W-6KK">
+                            <rect key="frame" x="20" y="343" width="280" height="54"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <attributedString key="attributedText"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="m7q-08-4te"/>
+                            </connections>
+                        </textView>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="l6K-We-usC"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="266" y="636"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="discardRouteRepetition.png" width="33" height="33"/>
+        <image name="routeDetailDivider.png" width="320" height="1"/>
+        <image name="routeDetailGradeCircle.png" width="67" height="67"/>
+        <image name="saveRouteRepetition.png" width="33" height="33"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

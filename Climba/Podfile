@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+pod 'Mantle'
+pod 'ReactiveCocoa'
+pod 'AsyncImageView'
+pod 'AFNetworking', '~> 2.0'
+pod 'TSMessages'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'Reachability'
+pod 'Facebook-iOS-SDK'
+pod 'Parse'
+pod 'ParseFacebookUtils'
+pod 'MarqueeLabel'

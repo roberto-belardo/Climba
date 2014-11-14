@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FalesiaDetailViewController">
+            <connections>
+                <outlet property="headerBackgroundImageView" destination="EBK-Bz-a5h" id="PHg-gs-bdb"/>
+                <outlet property="map" destination="OJT-rM-uFt" id="GB1-4G-ifA"/>
+                <outlet property="nomeFalesiaLabel" destination="GPq-Zr-g18" id="WHL-jW-Y6y"/>
+                <outlet property="scrollView" destination="kRc-Ut-bXM" id="daw-7t-JVv"/>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="weatherBackgroundImageView" destination="fML-9Z-rRk" id="lb1-Td-5Ae"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EBK-Bz-a5h">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="Vhc-LP-m0X"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dG-aq-uMf">
+                    <rect key="frame" x="20" y="23" width="33" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="33" id="dyt-AK-Gpb"/>
+                    </constraints>
+                    <state key="normal" image="backButton2.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="dismissViewClicked:" destination="-1" eventType="touchUpInside" id="i2M-fA-LZq"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPq-Zr-g18">
+                    <rect key="frame" x="61" y="23" width="199" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRc-Ut-bXM">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <subviews>
+                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OJT-rM-uFt">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="226"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="6cZ-zr-uNG"/>
+                            </connections>
+                        </mapView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fML-9Z-rRk">
+                            <rect key="frame" x="0.0" y="226" width="320" height="51"/>
+                        </imageView>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kRc-Ut-bXM" firstAttribute="top" secondItem="EBK-Bz-a5h" secondAttribute="bottom" id="5Ne-yt-sff"/>
+                <constraint firstItem="EBK-Bz-a5h" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="5Qk-eY-CJz"/>
+                <constraint firstItem="GPq-Zr-g18" firstAttribute="leading" secondItem="4dG-aq-uMf" secondAttribute="trailing" constant="8" id="8kD-Gb-Tw4"/>
+                <constraint firstItem="GPq-Zr-g18" firstAttribute="top" secondItem="1" secondAttribute="top" constant="23" id="C2i-0M-prY"/>
+                <constraint firstAttribute="trailing" secondItem="GPq-Zr-g18" secondAttribute="trailing" constant="60" id="I59-L5-q73"/>
+                <constraint firstItem="4dG-aq-uMf" firstAttribute="top" secondItem="GPq-Zr-g18" secondAttribute="top" id="Odr-Qi-e2k"/>
+                <constraint firstItem="4dG-aq-uMf" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="PAY-aO-pGG"/>
+                <constraint firstAttribute="trailing" secondItem="EBK-Bz-a5h" secondAttribute="trailing" id="TTv-iM-VSm"/>
+                <constraint firstItem="kRc-Ut-bXM" firstAttribute="top" secondItem="GPq-Zr-g18" secondAttribute="bottom" constant="8" id="X4b-Cd-q5b"/>
+                <constraint firstItem="kRc-Ut-bXM" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="Xg6-L3-Geu"/>
+                <constraint firstItem="kRc-Ut-bXM" firstAttribute="top" secondItem="4dG-aq-uMf" secondAttribute="bottom" constant="8" symbolic="YES" id="YNe-Ud-bc3"/>
+                <constraint firstAttribute="trailing" secondItem="kRc-Ut-bXM" secondAttribute="trailing" id="biH-QY-XaC"/>
+                <constraint firstItem="EBK-Bz-a5h" firstAttribute="top" secondItem="1" secondAttribute="top" id="hgd-MO-VZ5"/>
+                <constraint firstAttribute="bottom" secondItem="kRc-Ut-bXM" secondAttribute="bottom" id="nA0-gX-Ip9"/>
+                <constraint firstItem="kRc-Ut-bXM" firstAttribute="top" secondItem="EBK-Bz-a5h" secondAttribute="bottom" id="tp7-IO-c5b"/>
+            </constraints>
+            <point key="canvasLocation" x="44" y="161"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backButton2.png" width="33" height="33"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

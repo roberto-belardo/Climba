@@ -20,7 +20,7 @@ Climba is here to change all that. Our aim is to build a free community driven d
 - [License](#license)
 
 ## Version History
-- [**1.0**](https://github.com/backslash451/climba)   (10/22/2014): Initial release
+- [**1.0.6**](https://itunes.apple.com/it/app/climba-app/id931272603)   (11/14/2014): Initial release
 
 ## What is Climba
 Climba is an iOS app made by rock climbers for rock climbers. It is based on the [Parse](http://www.parse.com) cloud backend and it allows you to:

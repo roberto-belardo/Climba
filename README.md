@@ -198,7 +198,7 @@ Another way to suggest a revision for an existing climbing spot (falesia) or to 
 <a href="https://twitter.com/robertobelardo" target="_blank">@robertobelardo</a>
 
 ## Links
- - [App Store]()
+ - [App Store](https://itunes.apple.com/it/app/climba-app/id931272603)
  - [Website](http://climba.parseapp.com)
  - [Facebook](https://www.facebook.com/climba.app.page)
  - [Twitter](https://twitter.com/climba_app)

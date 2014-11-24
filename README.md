@@ -39,7 +39,7 @@ When i decided to write Climba i had nothing on this in mind, i just wanted to e
 Climba is more than this. Climba wants to be a community driven database of italian climbing spots where everyone can suggest or add new spots, new routes, correct wrong description and do whatever he wants with it. Do you want to build an Android app similar to Climba? You can, and you can use Climba's database.
 
 ## What can you do with Climba
- - [Download]() the app from the [App Store]() and use it!
+ - [Download](https://itunes.apple.com/it/app/climba-app/id931272603) the app from the [App Store](https://itunes.apple.com/it/app/climba-app/id931272603) and use it!
  - [Fork](https://github.com/backslash451/climba/fork) this repository and experiment with it.
  - Tell me about a particular issue on the app.
  - Submit a Pull Request for a feature you would like to add to Climba.

@@ -2,6 +2,7 @@
 
 Climba
 ======
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/backslash451/Climba?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Italy is a country where rock climbing is spreading like wildfire. So many great places where you can climb and a great community of passionate people growing day by day with veterans helping newbie climbing higher and higher. But until now climbers have had to rely on word of mouth, printed guides or old style incomplete websites.
 
